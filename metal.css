@@ -1,0 +1,58 @@
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #ff0000;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px #8b0000;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Corregido */
+    align-items: center;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    background: #222;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 250px;
+}
+
+li:hover {
+    background: #ff0000;
+    transform: scale(1.1);
+}
+
+img {
+    width: 40px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white; /* Corregido */
+    font-weight: bold; /* Corregido */
+    font-size: 20px;
+}
+
+a:hover {
+    color: black;
+}

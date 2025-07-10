@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frames Alternativos</title>
+</head>
+<body>  
+    <!-- Encabezado -->
+    <iframe src="musica.html" name="alto" width="100%" height="120" frameborder="0"></iframe>
+
+    <!-- Contenedor principal con dos columnas -->
+    <table width="100%" height="600">
+        <tr>           
+            <!-- Columna izquierda (categorías más grande) -->
+            <td width="25%" valign="top" bgcolor="black">
+                <h2 style="color: white;">Categorías</h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="musica.html" target="central" style="color: white;">Música</a></li>
+                    <li><a href="Hip-hop.html" target="central" style="color: white;">Hip-Hop</a></li>
+                    <li><a href="Eazy-e.html" target="central" style="color: white;">Eazy-E</a></li>
+                    <li><a href="Ice-cube.html" target="central" style="color: white;">Ice Cube</a></li>
+                    <li><a href="2pac.html" target="central" style="color: white;">2Pac</a></li>
+                    <li><a href="Metal.html" target="central" style="color: white;">Metal</a></li>
+                    <li><a href="Ripped-to-shreds.html" target="central" style="color: white;">Ripped to Shreds</a></li>
+                    <li><a href="Slipknot.html" target="central" style="color: white;">Slipknot</a></li>
+                    <li><a href="Cannibal-corpse.html" target="central" style="color: white;">Cannibal Corpse</a></li>
+                </ul>
+            </td>         
+            
+            <!-- Columna derecha con dos filas (secciones apiladas) -->
+            <td width="75%">
+                <table width="100%" height="100%">
+                    <tr>
+                        <td height="50%">
+                            <iframe src="Metal.html" name="central" width="100%" height="100%" frameborder="0"></iframe>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="50%">
+                            <iframe src="Hip-hop.html" name="dx" width="100%" height="100%" frameborder="0"></iframe>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
